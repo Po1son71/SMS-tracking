@@ -1,9 +1,9 @@
 <?php
-$serverName = "nexusworld.database.windows.net";
+$serverName = "server_name";
 $connectionOptions = array(
-    "database" => "nexuspos",
-    "uid" => "skynexus",
-    "pwd" => "Snx193#*"
+    "database" => "db_name",
+    "uid" => "user_name",
+    "pwd" => "password"
 );
 
 $conn = sqlsrv_connect($serverName, $connectionOptions);
